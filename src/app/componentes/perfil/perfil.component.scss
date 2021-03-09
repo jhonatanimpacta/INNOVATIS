@@ -1,0 +1,54 @@
+.navbar {
+    height: 89px;
+    padding: 15px 10px;
+    background: #C6D1E4;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 40px;
+    button{
+        i{
+            font-size: 23px;
+        }
+    }
+    .icon-menu{
+        background: none;
+        border: none;
+        box-shadow: 0 0 0 0;
+        outline: 0;
+        margin: 0;
+        padding: 0;
+        width: 24px;
+        
+    }
+    .perfil{
+        .fas.fa-user{
+            color: #0a182f;
+            font-size: 22px;
+        }
+        p{
+            font-size: 12px;
+            color: #7B96C4;
+            margin: 10px 0 0 53px;
+        }
+    }
+}
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: #6d7fcc;
+}
+
+@media (max-width: 768px) {
+    #sidebarCollapse span {
+        display: none;
+    }
+}
