@@ -1,17 +1,16 @@
 import { Component, OnInit } from '@angular/core';
-import { CrudService } from '../../services/crud.service';
+import { CrudFornecedores } from '../../api-json/api-fornecedores';
 
 @Component({
-  selector: 'app-ordem-produtos',
-  templateUrl: './ordem-produtos.component.html',
-  styleUrls: ['./ordem-produtos.component.scss']
+  selector: 'app-fornecedor',
+  templateUrl: './fornecedor.component.html',
+  styleUrls: ['./fornecedor.component.scss']
 })
-
-export class OrdemProdutosComponent implements OnInit {
+export class FornecedorComponent implements OnInit {
   teste: any;
   erro: any;
 
-  constructor(private crudService: CrudService) {
+  constructor(private CrudFornecedores: CrudFornecedores) {
     this.getter();
   }
 
@@ -20,7 +19,7 @@ export class OrdemProdutosComponent implements OnInit {
 
   getter() {
 
-    this.crudService.getProdutos().subscribe(
+    this.CrudFornecedores.getProdutos().subscribe(
       (data) => {
         this.teste = data;
         this.teste = this.teste.contents;

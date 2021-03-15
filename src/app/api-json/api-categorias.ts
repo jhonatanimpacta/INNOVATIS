@@ -6,9 +6,9 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 
-export class CrudService {
+export class CrudCategorias {
   constructor(private http: HttpClient) { }
   public getProdutos(): Observable<any> {
-    return this.http.get(`../../assets/data.json`);
+    return this.http.get(`./assets/categoria.json`);
   }
 }

@@ -1,0 +1,94 @@
+﻿{
+	"contents": [
+
+		{
+
+			"Id": 2,
+			"Company": "Boné",
+			"Courses": [
+				
+				{
+					"Id": 1,
+					"Status": "Active",
+					"Name": "Boné 01",
+					"Quantity": "10",
+					"Description": "Lorem ipsum dolor sit amet."
+				},
+
+				{
+					"Id": 2,
+					"Status": "Active",
+					"Name": "Boné 02",
+					"Quantity": "10",
+					"Description": "Lorem ipsum dolor sit amet."
+				}
+
+			]
+		},
+
+		{
+
+			"Id": 1,
+			"Company": "Camisa",
+			"Courses": [
+				
+				{
+					"Id": 3,
+					"Status": "Active",
+					"Name": "Camisa 01",
+					"Quantity": "10",
+					"Description": "Lorem ipsum dolor sit amet."
+				},
+
+				{
+					"Id": 4,
+					"Status": "Active",
+					"Name": "Camisa 02",
+					"Quantity": "10",
+					"Description": "Lorem ipsum dolor sit amet."
+				}
+
+			]
+		},
+
+		{
+
+			"Id": 1,
+			"Company": "Calça",
+			"Courses": [
+				
+				{
+					"Id": 5,
+					"Status": "Active",
+					"Name": "Calça 01",
+					"Quantity": "10",
+					"Description": "Lorem ipsum dolor sit amet."
+				},
+
+				{
+					"Id": 6,
+					"Status": "Active",
+					"Name": "Calça 02",
+					"Quantity": "10",
+					"Description": "Lorem ipsum dolor sit amet."
+				}
+
+			]
+		},
+
+		{
+			"Id": 2,
+			"Company": "Camisa",
+			"Courses": [
+				{
+					"Id": 2,
+					"Status": "Desativado",
+					"Name": "Camisa 02",
+					"Quantity": "105",
+					"Description": "Lorem ipsum dolor sit amet."
+				}
+			]
+		}
+
+	]
+}
