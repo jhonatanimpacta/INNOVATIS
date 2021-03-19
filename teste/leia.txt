@@ -1,4 +1,0 @@
-npm start no backend
-
-npm i no front
-npm serve no front
