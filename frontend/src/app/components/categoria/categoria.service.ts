@@ -9,7 +9,7 @@ import { map, catchError } from "rxjs/operators";
   providedIn: "root",
 })
 export class categoriaService {
-  baseUrl = "http://localhost:3001/categorias";
+  baseUrl = "http://54.90.39.27:5000//categorias/novo";
 
   constructor(private snackBar: MatSnackBar, private http: HttpClient) {}
 
