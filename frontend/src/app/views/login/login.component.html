@@ -7,9 +7,10 @@
             <div class="col-md-6 box-right">
                 <h1>Login</h1>
                 <p>Entre com seus dados corretamente para acessar o sistema.</p>
-                <input id="login" placeholder="Login">
-                <input id="senha" placeholder="Senha">
-                <a routerLink="/home">Entrar</a>
+                <input [(ngModel)] = "usuario.login" id="login" placeholder="Login">
+                <input [(ngModel)] = "usuario.senha" id="senha" placeholder="Senha">
+                <button type="button" class=" btn btn-primary" (click)="login()" >Entrar</button>
+
             </div>
         </div>
     </div>
